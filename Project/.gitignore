@@ -1,0 +1,51 @@
+# Node.js 
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# dotenv 
+*.env
+*.env.*.local
+
+# log
+logs
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# system
+.DS_Store
+Thumbs.db
+
+# frontend (React)
+client/build/
+client/.cache/
+client/.next/  
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+# backend (Express + Mongoose)
+server/dist/
+server/tmp/
+server/.env
+server/.env.local
+
+# edytory/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+# Local data
+*.sqlite
+*.db
+*.local
+.cache/
+.tmp/
