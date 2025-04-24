@@ -49,7 +49,7 @@ Login
 
 Signup
 
-Main (for authenticated users)
+Main 
 
 OrdersPage
 
